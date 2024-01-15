@@ -1,0 +1,19 @@
+[package]
+name = "income-divider"
+version = "0.1.0"
+authors = ["Prakhar Pratyush <prakhar.pratyush8010@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description="A desktop app that divides income"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name="Income Divider"
+identifier="io.github.prakhar0711.Income-Divider-in-Rust"
