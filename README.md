@@ -16,7 +16,7 @@ Make sure you have the following installed on your system:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/income-divider-app.git
+git clone https://github.com/prakhar0711/income-divider-in-rust.git
 cd income-divider-app
 ```
 
