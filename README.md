@@ -1,40 +1,53 @@
-# Slint Rust Template
+Income Divider App
 
-A template for a Rust application that's using [Slint](https://slint.rs) for the user interface.
+This project is a simple income divider application built using the slint framework. It allows users to input their income, and the application calculates and displays the savings, investment, expense, and self-expense based on predefined percentages.
+Getting Started
 
-## About
+Follow these steps to build and run the Income Divider App:
+Prerequisites
 
-This template helps you get started developing a Rust application with Slint as toolkit
-for the user interface. It demonstrates the integration between the `.slint` UI markup and
-Rust code, how to trigger react to callbacks, get and set properties and use basic widgets.
+Make sure you have the following installed on your system:
 
-## Usage
+    Rust
+    slint
 
-1. Install Rust by following the [Rust Getting Started Guide](https://www.rust-lang.org/learn/get-started).
-   Once this is done, you should have the ```rustc``` compiler and the ```cargo``` build system installed in your path.
-2. Install [`cargo-generate`](https://github.com/cargo-generate/cargo-generate)
-    ```
-    cargo install cargo-generate
-    ```
-3. Set up a sample project with this template
-    ```
-    cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
-    cd my-project
-    ```
-3. Build with cargo
-    ```
-    cargo build
-    ```
-4. Run the application binary
-     ```
-     cargo run
-     ```
+Clone the Repository
 
-We recommend using an IDE for development, along with our [LSP-based IDE integration for `.slint` files](https://github.com/slint-ui/slint/blob/master/tools/lsp/README.md). You can also load this project directly in [Visual Studio Code](https://code.visualstudio.com) and install our [Slint extension](https://marketplace.visualstudio.com/items?itemName=Slint.slint).
+bash
 
-## Next Steps
+git clone https://github.com/your-username/income-divider-app.git
+cd income-divider-app
 
-We hope that this template helps you get started and you enjoy exploring making user interfaces with Slint. To learn more
-about the Slint APIs and the `.slint` markup language check out our [online documentation](https://slint.dev/docs).
+Build and Run
 
-Don't forget to edit this README to replace it by yours
+    Open a terminal in the project directory and build the Rust code:
+
+    bash
+
+cargo build --release
+
+Run the application:
+
+bash
+
+    cargo run
+
+This will compile and execute the Income Divider App.
+Usage
+
+    Enter your income in the provided input field.
+    Click the "Calculate" button to see the calculated savings, investment, expense, and self-expense.
+    Observe the visual representation of the income division in the animated rectangles.
+
+Contributing
+
+Feel free to contribute to the project by submitting issues or pull requests. Your feedback and suggestions are highly appreciated.
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgments
+
+    The slint framework for providing a simple way to build UI components in Rust.
+    Rust programming language for its safety and performance.
+
+Happy income dividing! 🎉
