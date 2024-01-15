@@ -16,4 +16,4 @@ slint-build = "1.0"
 
 [package.metadata.bundle]
 name="Income Divider"
-identifier="io.github.prakhar0711.Income-Divider-in-Rust"
+identifier="io.github.prakhar0711.income-divider-in-Rust "
