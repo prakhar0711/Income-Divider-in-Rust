@@ -39,11 +39,10 @@ This will compile and execute the Income Divider App.
 
 Navigate to :
 
-    ```bash
-    income-divider/target/release
-    ```
+   
+   " income-divider/target/release " and run income-divider.exe file.
 
-and run income-divider.exe file.
+
 
 ## Usage
 
